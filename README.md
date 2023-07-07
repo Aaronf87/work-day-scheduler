@@ -8,6 +8,10 @@ You'll need to use the [Day.js](https://day.js.org/en/) library to work with dat
 
 The following animation demonstrates the application functionality:
 
+The link to the site below:
+
+https://aaronf87.github.io/work-day-scheduler/
+
 <!-- @TODO: create ticket to review/update image) -->
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
