@@ -1,8 +1,12 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
-// dayjs().day() // gets day of current week
-// console.log(dayjs());
+var myDate = new Date();
+console.log(myDate);
+
+date = document.getElementById("currentDay")
+date.innerHTML = myDate;
+
 
 // $(function () {
 
@@ -23,11 +27,6 @@
   // attribute of each time-block be used to conditionally add or remove the
   // past, present, and future classes? 
 
-
-  console.log(past);
-
-  $("#past").css("color" ,"blue");
-  $.datepicker.formatDate('yy/mm/dd', new Date());
 
   
   // How can Day.js be used to get the
