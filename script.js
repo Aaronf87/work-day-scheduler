@@ -2,10 +2,11 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 var myDate = new Date();
-console.log(myDate);
 
-date = document.getElementById("currentDay")
+var date = document.getElementById("currentDay")
 date.innerHTML = myDate;
+
+
 
 
 // $(function () {
